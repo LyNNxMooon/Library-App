@@ -11,6 +11,7 @@ Apart from binding Google API,
  - When any of the books in homepage are favourited with the icon will be displayed in the next page with the respective categories and are persistent
  - Creating multiple collections and adding multiple books into the collections and can be viewed anytime since they are persistent in local storage and remove the desire books in any collection.
 
+![Untitled design (6)](https://github.com/LyNNxMooon/Library-App/assets/112456534/1a63d42d-4744-4d45-a31c-efb426aa96e5)
 
 ## Getting Started
 
