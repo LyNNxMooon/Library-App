@@ -13,5 +13,19 @@ const kQueryParamsKeyForSearchBook = "q";
 
 //Query Params Value
 const kAPIValue = "R6rzBgYLcg0ztx64GN4r8WTWoyABGvKR";
-String kPublishedDateValue =
-    "${DateTime.now().year}-${DateTime.now().month}-${DateTime.now().day}";
+
+String month() {
+  if (DateTime.now().month.toString().length < 2) {
+    return "0${DateTime.now().month}";
+  }
+  return "${DateTime.now().month}";
+}
+
+String day() {
+  if (DateTime.now().day.toString().length < 2) {
+    return "0${DateTime.now().day}";
+  }
+  return "${DateTime.now().day}";
+}
+
+String kPublishedDateValue = "${DateTime.now().year}-${month()}-${day()}";
