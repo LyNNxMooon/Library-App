@@ -1,7 +1,7 @@
 # library_app
 
 A Library Book store app where the view layer of the flutter widgets are binded with Google APIs from NPMJS🧑‍💻
-The project is about displaying all the e books with each category for the users to buy and read books. Users will be able to search for the desire books in the search page🔍 and get into the book details📘
+The project is about displaying all the e-books with each category for the users to buy and read books. Users will be able to search for the desire books in the search page🔍 and get into the book details📘
 Moreover, they will be able to favorites the book to the other page and save the book for later📌 Create own collection in the local stroage and add the desire books to the multiple collections📚
 Apart from binding Google API, 
 
